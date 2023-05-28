@@ -12,6 +12,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: var(--text-color);
+  background-color: var(--main-white);
 }
 .link {
   text-decoration: none;
@@ -26,13 +27,16 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   color: var(--logo-color);
+  text-transform: uppercase;
 }
-
-.header .logo span {
+.heder-logo {
   color: var(--title-color);
 }
-
+.footer-logo {
+  color: var(--light-blue-background);
+}
 .header-list-link {
   font-weight: 500;
   line-height: 1.5;
@@ -47,8 +51,10 @@ body {
 .header {
   background: var(--main-white);
 }
-.header-address-link {
+.header-address {
   font-style: normal;
+}
+.header-address-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: inherit;
@@ -63,6 +69,7 @@ body {
   background: var(--title-color);
 }
 .main-header {
+  text-align: center;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -71,12 +78,13 @@ body {
 }
 .main-button {
   font-family: inherit;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.04em;
   color: var(--main-white);
   background: var(--logo-color);
   cursor: pointer;
+  letter-spacing: 0.04em;
 }
 .main-button:hover,
 .main-button:focus {
@@ -97,6 +105,7 @@ body {
 .main-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--text-color);
 }
 
 .main-section-header {
@@ -104,6 +113,7 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
   text-transform: capitalize;
   color: var(--title-color);
 }
@@ -114,12 +124,11 @@ body {
 .team {
   background: var(--light-blue-background);
 }
+.team-item {
+  background-color: var(--main-white);
+}
 .footer {
   background: var(--title-color);
-}
-
-.footer .logo span {
-  color: var(--light-blue-background);
 }
 
 .portfolio-main {
@@ -128,12 +137,13 @@ body {
 
 .portfolio-filter-button {
   font-family: inherit;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--focus-color);
+  color: var(--logo-color);
   background: var(--light-blue-background);
   cursor: pointer;
+  letter-spacing: 0.04em;
 }
 
 .portfolio-filter-button:hover,
