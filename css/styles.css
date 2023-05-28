@@ -31,7 +31,7 @@ body {
   color: var(--logo-color);
   text-transform: uppercase;
 }
-.heder-logo {
+.header-logo {
   color: var(--title-color);
 }
 .footer-logo {
